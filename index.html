@@ -4,43 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
+    <title>Registration From</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <div class="modal">
-    <form class="modal-content animate">
-        <div class="imagecontainer">
-        <img src="images/download.png" alt="avatar">
-    </div>
-    <div class="container">
-        <label for="">
-            Username
-        </label>
-        <input type="text" placeholder="Username">
-        <br>
-        <label for="">
-            Password
-        </label>
-        <input type="Password" placeholder="Password">
-        <br />
-        <input type="checkbox">Remember me
-        <button>
-            <a href="https://likhon4288.github.io/Reaz-portfolio/">login</a>
-            
-        </button>
-        <label for="">
-            <p>
-                Forget <a href="#">Password</a>
-            </p>
-        </label>
-        <label for="">
-            <p>
-                No account?<a href="signup.html">signup</a>
-            </p>
-        </label>
-    </div>
+    <div class="main">
+        <div class="register">
+            <h2>Register Here</h2>
+            <form id="register" method="post">
+                <label for="">First Name :</label>
+                <br>
+                <input type="text" name="fname" id="name" placeholder="Enter Your First Name">
+                 <br><br>
+                 <label>Last Name</label>
+                 <br>
+                 <input type="text" name="lname" id="name" placeholder="Enter Your Last Name">
+                 <br><br>
+                 <label>Your Age</label>
+                 <br>
+                 <input type="number" name="age" id="name" placeholder="How old are You?">
+                 <br><br>
+                 <label>Email :</label>
+                 <br>
+                 <input type="email" name="email" id="name" placeholder="Enter Your Valid Email">
+                 <br><br>
+                 <label>Gender :</label>
+                 <br>
+                 &nbsp;&nbsp;&nbsp;
+                 <input type="radio" name="gender" id="male">
+                 &nbsp;
+                 <span id="male">Male</span>
+                 &nbsp;&nbsp;&nbsp;&nbsp;
+                 <input type="radio" name="gender" id="female">
+                 &nbsp;
+                 <span id="female">Female</span>
+                 <br><br>
+                 <label>Known Language :</label>
+                 <br>
+                 &nbsp;&nbsp;&nbsp;
+                 <input type="checkbox" name="lang"
+                 id="bangla">
+                 &nbsp;
+                 <span id="bangla">Bangla</span>
+                 &nbsp;&nbsp;&nbsp;&nbsp;
+                 <input type="checkbox" name="lang"
+                 id="eng">
+                 &nbsp;
+                 <span id="eng">English</span>
+                 &nbsp;&nbsp;&nbsp;&nbsp;
+                 <input type="checkbox" name="lang"
+                 id="urdu">
+                 &nbsp;
+                 <span id="urdu">Urdu</span>
+                 <br><br>
+                 <input type="submit" value="submit" name="submit" id="submit" >
 
-    </form>
-</div>
+                 <a href="https://likhon4288.github.io/Reaz-portfolio/">Click Here</a>
+                 
+            </form>
+        </div>
+    </div>
 </body>
 </html>
